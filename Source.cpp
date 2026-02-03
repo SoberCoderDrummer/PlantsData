@@ -117,6 +117,7 @@ int main()
     using namespace PlanteInterieur;
     //shared_ptr<PlanteInterieur::Plante> Alocasia = PlanteInterieur::createPlante("Alocasia", "Oreille d'‚l‚phant", "Kris Plant", "Araceae", "Asie tropical, phillippine", "Feuillage", 1 | 2, "rig‚", "Basse 10-30cm");
 
+    // For some reason, the é and É character can't be printed conrrectly here.
     shared_ptr<Plante> alocasia = createPlante("Alocasia", "Oreille d'‚l‚phant", "Kris Plant", "Araceae", "Asie tropical, phillippine", "Feuillage", NIVEAU_DIFFICULTE::Facile | NIVEAU_DIFFICULTE::Expert | NIVEAU_DIFFICULTE::Intermediaire, "rig‚", "Basse 10-30cm");
 
     PlantePrinter::printPlante(*alocasia.get());
@@ -151,3 +152,4 @@ int main()
       Propagation
       Insect et maladie
       Donnee complementaire*/
+
