@@ -115,9 +115,9 @@ namespace PlanteInterieur
 int main()
 {
     using namespace PlanteInterieur;
-    //shared_ptr<PlanteInterieur::Plante> Alocasia = PlanteInterieur::createPlante("Alocasia", "Oreille d'ÇlÇphant", "Kris Plant", "Araceae", "Asie tropical, phillippine", "Feuillage", 1 | 2, "êrigÇ", "Basse 10-30cm");
+    //shared_ptr<PlanteInterieur::Plante> Alocasia = PlanteInterieur::createPlante("Alocasia", "Oreille d'‚Äöl‚Äöphant", "Kris Plant", "Araceae", "Asie tropical, phillippine", "Feuillage", 1 | 2, "¬êrig‚Äö", "Basse 10-30cm");
 
-    shared_ptr<Plante> alocasia = createPlante("Alocasia", "Oreille d'ÇlÇphant", "Kris Plant", "Araceae", "Asie tropical, phillippine", "Feuillage", NIVEAU_DIFFICULTE::Facile | NIVEAU_DIFFICULTE::Expert | NIVEAU_DIFFICULTE::Intermediaire, "êrigÇ", "Basse 10-30cm");
+    shared_ptr<Plante> alocasia = createPlante("Alocasia", "Oreille d'‚Äöl‚Äöphant", "Kris Plant", "Araceae", "Asie tropical, phillippine", "Feuillage", NIVEAU_DIFFICULTE::Facile | NIVEAU_DIFFICULTE::Expert | NIVEAU_DIFFICULTE::Intermediaire, "¬êrig‚Äö", "Basse 10-30cm");
 
     PlantePrinter::printPlante(*alocasia.get());
     return 0;
