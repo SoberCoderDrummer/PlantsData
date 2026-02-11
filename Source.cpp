@@ -191,7 +191,7 @@ public:
         nomEncyclopedie = "Plantes interieurs :) ";
         // tout les plantes se produise ici.. 150 ... \: Ca sera long a taper. Mais faut le faire.
         //Alocasia
-        listePlante.push_back(make_unique<Plante>("Nom", "asd", "asd", "asd", "asd", "asd", 1, "asd", "asd"));
+        listePlante.push_back(make_unique<Plante>("Alocasia", "Oreille d'elephant", "Kris Plant", "Araceae", "Asie Tropical, phillippine", "Feuillage", NIVEAU_DIFFICULTE::Facile, "rig", "Basse 10-30cm"));
         // ...
 
     }
@@ -277,3 +277,4 @@ int main(int argc, char* argv[])
       Propagation
       Insect et maladie
       Donnee complementaire*/
+
